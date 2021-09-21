@@ -1,0 +1,173 @@
+/* reset css */
+body {
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  overflow-x: hidden;
+  background-color: #30bebf;
+}
+
+h1,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+@font-face {
+  font-family: GTAmerica-LightExpanded;
+  src: url(../css/font/iCielGTAmerica-LightExpanded.otf);
+}
+
+@font-face {
+  font-family: GTAmerica-UltraLightExpandedItalic;
+  src: url(../css/font/iCielGTAmerica-UltraLightExpandedItalic.otf);
+}
+
+.ws-container,
+.ws-container-fluid {
+  max-width: 1200px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ws-container-fluid {
+  max-width: 100%;
+}
+
+.image{
+  position: relative;
+}
+
+.background{
+  position: absolute;
+  z-index: -1;
+}
+
+section {
+  height: auto;
+}
+
+p {
+  font-family: GTAmerica-LightExpanded;
+  font-size: 24px;
+  color: #fff;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.content p span {
+  font-size: 75px;
+  font-weight: bold;
+  line-height: 35px;
+}
+
+.section1 .ws-container-fluid{
+  background-image: url(../img/vet1.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.section1 h1 {
+  font-family: GTAmerica-LightExpanded;
+  font-size: 62px;
+  padding: 15px 84px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.section1 h1 span {
+  display: block;
+}
+
+.section1 h1 .italic-text {
+  font-style: italic;
+  display: inline;
+}
+
+.section1 .content {
+  padding: 60px 58px 60px 84px;
+}
+
+.section2 .video {
+  display: block;
+  margin: 60px 80px;
+}
+
+/* section3 */
+.section3 .background{
+  bottom: -41%;
+}
+
+.section3 .content {
+  padding: 33px 58px 33px 84px;
+}
+
+.section3 .content p {
+  padding: 18px 0;
+}
+
+/* section5 */
+.section5 .content {
+  padding: 20px 58px 50px 84px;
+}
+
+/* section6 */
+.section6 .background{
+  bottom: -14.6%;
+}
+
+.section6 .content {
+  padding: 28px 56px 28px 84px;
+}
+
+/* section8 */
+.section8 .content {
+  padding: 45px 56px 45px 84px;
+}
+
+/* section9 */
+.section9 .background{
+  bottom: -22.6%;
+}
+
+.section9 .content {
+  padding: 45px 58px 55px 84px;
+}
+
+/* section11 */
+.section11 .background{
+  top: -29%;
+  right: -4%;
+}
+
+.section11 .content {
+  padding: 45px 52px 70px 84px;
+}
+
+/* footer */
+footer .content{
+  padding: 45px 60px 45px 84px;
+}
+
+footer .content p {
+  font-style: italic;
+  font-size: 21px;
+}
+
+footer .bottom {
+  display: block;
+  width: fit-content;
+  font-size: 10px;
+  font-family: GTAmerica-UltraLightExpandedItalic;
+  margin-left: auto;
+  margin-right: 20px;
+  padding: 0;
+}

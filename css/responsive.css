@@ -1,0 +1,98 @@
+@media screen and (min-width: 375px) and (max-width: 1200px) {
+  p {
+    font-size: 14px;
+  }
+
+  .content p span {
+    font-size: 30px;
+  }
+
+  /* section1 */
+  .section1 h1 {
+    font-size: 20px;
+    padding: 3px 39px;
+    line-height: 35px;
+  }
+
+  .section1 .content,
+  .section3 .content,
+  .section5 .content,
+  .section6 .content,
+  .section8 .content,
+  .section9 .content,
+  .section11 .content,
+  footer .content {
+    padding: 20px;
+  }
+
+  /* section2 */
+  .section2 .video {
+    margin: 30px 60px;
+  }
+
+  /* footer */
+  footer .content p {
+    font-size: 12px;
+  }
+
+  footer .bottom {
+    font-size: 8px;
+  }
+
+}
+
+@media screen and (min-width: 540px) and (max-width: 1200px) {
+  .section1 h1 {
+    font-size: 25px;
+    padding: 3px 50px;
+  }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  p {
+    font-size: 20px;
+  }
+
+  /* section1 */
+  .section1 h1 {
+    font-size: 34px;
+    padding: 10px 12%;
+    line-height: 40px;
+  }
+
+  .section1 .content,
+  .section3 .content,
+  .section5 .content,
+  .section6 .content,
+  .section8 .content,
+  .section9 .content,
+  .section11 .content,
+  footer .content {
+    padding: 20px 8%;
+  }
+
+  /* footer */
+  footer .content p {
+    font-size: 14px;
+  }
+
+  footer .bottom {
+    font-size: 10px;
+  }
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  /* section1 */
+  .section1 h1 {
+    font-size: 45px;
+    line-height: 55px;
+  }
+
+  /* section2 */
+  .section2 .video {
+    margin: 30px 80px;
+  }
+
+}
